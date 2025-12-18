@@ -1,0 +1,10 @@
+{
+    "horizontalFrames": 120,
+    "horizontalStartingIndex": 60,
+    "horizontalWrap": true,
+    "name": "Sofa Cama Abierto_Light",
+    "type": "CalmXR",
+    "verticalFrames": 1,
+    "verticalStartingIndex": 0,
+    "verticalWrap": false
+}

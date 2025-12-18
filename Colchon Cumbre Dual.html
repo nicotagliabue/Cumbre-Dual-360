@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>CALMXRSHOP</title>
+    <style type="text/css">
+      body { -ms-touch-action: none; }
+    </style>
+    <script type="text/javascript" src="Colchon Cumbre Dual/files/CalmXR.js"></script>
+    <script type="text/javascript">
+      var CALMXRSHOP;
+
+      function initCalmXR() {
+        var nameOfDiv = "CALM360";
+        var folderName = "Colchon Cumbre Dual";
+        var viewPortWidth = 2560;
+        var viewPortHeight = 1440;
+        var backgroundColor = "#FFFFFF";
+        var uCount = 120;
+        var vCount = 1;
+        var uWrap = true;
+        var vWrap = false;
+        var uMouseSensitivity = -0.333333;
+        var vMouseSensitivity = 1;
+        var uStartIndex = 15;
+        var vStartIndex = 0;
+        var minZoom = 1;
+        var maxZoom = 1;
+        var rotationDamping = 0.96;
+        var downScaleToBrowser = true;
+        var addDownScaleGUIButton = false;
+        var downloadOnInteraction = false;
+        var imageExtension = "jpg";
+        var showLoading = true;
+        var loadingIcon = "loadico.png"; 
+        var allowFullscreen = true; 
+        var uReverse = true;
+        var vReverse = false;
+        var hotspots = {};
+        var isIBooksWidget = false;
+        
+        CalmXR = new CalmXR(nameOfDiv,folderName,viewPortWidth,viewPortHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen,uReverse,vReverse,hotspots,isIBooksWidget);
+      }
+
+      window.onload = initCalmXR;
+    </script>
+  </head>
+  <body oncontextmenu="return false;">
+    <div id="CALM360"></div>
+  </body>
+</html>
